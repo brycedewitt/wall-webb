@@ -1,0 +1,19 @@
+{
+    "name": "wall-webb-backend",
+    "version": "0.0.1",
+    "private": true,
+    "description": "Websocket server to accept servo commands and provide status information",
+    "main": "app.js",
+    "scripts": {
+        "test": "test",
+        "start": "node app.js",
+        "deploy": "deploy"
+    },
+    "author": "Bryce DeWitt",
+    "dependencies": {
+        "dotenv": "^16.0.0",
+        "express": "^4.17.1",
+        "express-ws": "^5.0.2",
+        "ws": "^8.5.0"
+    }
+}
