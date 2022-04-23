@@ -22,3 +22,6 @@
 /frontend/yarn-debug.log*
 /frontend/yarn-error.log*
 /frontend/node_modules
+
+# editor
+.idea
